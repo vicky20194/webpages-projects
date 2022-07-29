@@ -1,0 +1,140 @@
+*{
+    outline: none;
+}
+.container {
+    position: relative;
+    width: 95%;
+    color:#000000;
+    background-color: #ffffff;
+    font-family: 'Poppins', 'Orbitron';
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.navbar-container div img {
+    /* border: 2px solid blue; */
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin: auto;
+}
+.navbar-container{
+    position: relative;
+    /* border: 2px solid red; */
+    /* display: inline-block; */
+}
+.list{
+    display:inline;
+    position: relative;
+    margin: 50px;
+    left: 300px;
+    bottom:30px;
+    /* border: 2px solid green; */
+}
+.list-item {
+    display: inline;
+    margin:20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.list-item:hover{ 
+    border-bottom: 2px solid black;
+    width: 10%;
+}
+
+.button-group {
+    /* border: 2px solid pink; */
+    display:inline-block;
+    position: relative;
+    margin: auto;
+    left: 1050px;
+    bottom:60px;
+}
+.search-icon {
+    display: inline-block;
+}
+.nav-button{
+    display: inline;
+    position: absolute;
+    margin: auto;
+    bottom:6px;
+    left: 50px;
+    /* border: 1px solid black; */
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    background-color: white;
+    border:3px solid black;
+}
+.hero-container{
+    /* display: inline-block; */
+    position: absolute;
+}
+
+.hero-container div img[alt="person-hero-iamge"]{
+    position:relative;
+    bottom: 400px;
+    width: 400px;
+}
+
+.hero-container .square img{
+    position:relative;
+    top: 250px;
+    left: 100px;
+    width: 400px;
+}
+
+.hero-container .globe img{
+    position: relative;
+    left: 100px;
+    bottom: 350px;
+}
+
+.hero-container .star img{
+    position: relative;
+    left: 750px;
+    bottom: 300px;
+}
+
+.hero-container-right{
+    /* border: 2px solid rebeccapurple; */
+    display: inline;
+    position: relative;
+    bottom: 850px;;
+    left: 600px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.hero-heading{
+    position: relative;
+    right: 70px;
+    font-size: 60px;
+    word-spacing: 10px;
+    width: 800px;
+}
+.hero-description{
+    color:lightslategrey;
+    margin: 10px;
+    width: 650px;
+    font-size: 15px;
+}
+.button-email{
+    padding:0px 30px 0px 30px;
+    margin: 50px 50px 50px 0px;
+    font-family: 'Poppins', 'Orbitron';
+    color: black;
+    border: 1px  solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.button-join{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:#000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    outline: none;
+
+}
